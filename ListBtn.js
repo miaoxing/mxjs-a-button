@@ -1,5 +1,5 @@
 import React from 'react';
-import BtnLink from 'components/BtnLink';
+import BtnLink from './BtnLink';
 
 export default ({href, children, ...props}) => (
   <BtnLink to={href} variant="secondary" {...props}>
