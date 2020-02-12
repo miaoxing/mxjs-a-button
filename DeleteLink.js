@@ -1,5 +1,5 @@
 import React from 'react';
-import {withTable} from "components/TableProvider";
+import {withTable} from "@miaoxing/table";
 
 class DeleteLink extends React.Component {
   constructor(props) {
