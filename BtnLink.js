@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'components/Link';
+import {Link} from '@miaoxing/router';
 import {Button} from 'react-bootstrap';
 
 export default ({to, children, ...rest}) => {
