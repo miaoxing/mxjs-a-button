@@ -1,3 +1,5 @@
+import './style';
+
 export BtnLink from './BtnLink';
 export DeleteLink from './DeleteLink';
 export EditLink from './EditLink';
