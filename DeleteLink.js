@@ -1,5 +1,6 @@
 import React from 'react';
 import {withTable} from "@miaoxing/table";
+import $ from 'miaoxing';
 
 class DeleteLink extends React.Component {
   constructor(props) {
@@ -16,12 +17,12 @@ class DeleteLink extends React.Component {
         return;
       }
 
-      $.ajax({
+      $.post({
         url: this.props.href,
         loading: true,
         dataType: 'json'
-      }).done(ret => {
-        $.msg(ret);
+      }).then(ret => {
+        $.ret(ret);
         if (ret.code === 1) {
           this.props.table && this.props.table.reload();
         }
