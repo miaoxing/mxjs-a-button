@@ -1,11 +1,64 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`BtnLink renders correctly 1`] = `
-<MemoryRouter>
-  <_default
+<_default
+  href="foo"
+>
+  <Button
+    active={false}
+    as={[Function]}
+    disabled={false}
     href="foo"
+    type="button"
+    variant="primary"
   >
-    bar
-  </_default>
-</MemoryRouter>
+    <SafeAnchor
+      as={[Function]}
+      className="btn btn-primary"
+      disabled={false}
+      href="foo"
+    >
+      <Link
+        className="btn btn-primary"
+        href="foo"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+      >
+        <Link
+          className="btn btn-primary"
+          href="foo"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          to={
+            Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": Object {
+                "modal": undefined,
+              },
+            }
+          }
+        >
+          <LinkAnchor
+            className="btn btn-primary"
+            href="/"
+            navigate={[Function]}
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            <a
+              className="btn btn-primary"
+              href="/"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+            >
+              bar
+            </a>
+          </LinkAnchor>
+        </Link>
+      </Link>
+    </SafeAnchor>
+  </Button>
+</_default>
 `;

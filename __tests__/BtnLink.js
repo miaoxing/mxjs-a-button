@@ -7,10 +7,10 @@ import {BtnLink} from '../';
 import {MemoryRouter} from 'react-router';
 
 describe('BtnLink', () => {
-  it('renders correctly', () => {
-    expect(<MemoryRouter>
+  test('renders correctly', () => {
+    expect(mount(<MemoryRouter>
       <BtnLink href="foo">bar</BtnLink>
-    </MemoryRouter>).toMatchSnapshot();
+    </MemoryRouter>).find(BtnLink)).toMatchSnapshot();
   });
 
   test('text', () => {
