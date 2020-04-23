@@ -39,10 +39,12 @@
     "enzyme-adapter-react-16": "^1.15.2",
     "jest": "^25.4.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-test-renderer": "^16.13.1"
+    "react-dom": "^16.13.1"
   },
   "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>__tests__/setupTests.js"
+    ],
     "moduleNameMapper": {
       "\\.(css|less|scss)$": "<rootDir>/__mocks__/styleMock.js",
       "\\.(gif|ttf|eot|svg)$": "<rootDir>/__mocks__/fileMock.js"
