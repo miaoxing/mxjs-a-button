@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BtnLink renders correctly 1`] = `
+<MemoryRouter>
+  <_default
+    href="foo"
+  >
+    bar
+  </_default>
+</MemoryRouter>
+`;
