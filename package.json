@@ -59,6 +59,7 @@
     "@miaoxing/router": "^1.0.0"
   },
   "ciDependencies": {
-    "@miaoxing/router": "miaoxing/router"
+    "@miaoxing/router": "miaoxing/router",
+    "@miaoxing/router-modal": "miaoxing/router-modal"
   }
 }
