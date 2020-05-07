@@ -53,5 +53,12 @@
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ]
+  },
+  "dependencies": {
+    "react-bootstrap": "^1.0.1",
+    "@miaoxing/router": "^1.0.0"
+  },
+  "ciDependencies": {
+    "@miaoxing/router": "miaoxing/router"
   }
 }
