@@ -42,9 +42,11 @@
     "jest": "^25.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
     "regenerator-runtime": "^0.13.5"
   },
   "jest": {
+    "transformIgnorePatterns": [],
     "setupFilesAfterEnv": [
       "<rootDir>__tests__/setupTests.js"
     ],
@@ -58,9 +60,11 @@
   },
   "dependencies": {
     "@miaoxing/router": "^1.0.0",
+    "miaoxing": "^0.0.1",
     "react-bootstrap": "^1.0.1"
   },
   "ciDependencies": {
+    "miaoxing": "miaoxing/js",
     "@miaoxing/router": "miaoxing/router",
     "@miaoxing/router-modal": "miaoxing/router-modal"
   }
