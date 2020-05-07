@@ -35,12 +35,14 @@
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-react": "^7.9.4",
     "babel-jest": "^25.4.0",
+    "core-js": "^3.6.5",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "enzyme-to-json": "^3.4.4",
     "jest": "^25.4.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "regenerator-runtime": "^0.13.5"
   },
   "jest": {
     "setupFilesAfterEnv": [
@@ -55,8 +57,8 @@
     ]
   },
   "dependencies": {
-    "react-bootstrap": "^1.0.1",
-    "@miaoxing/router": "^1.0.0"
+    "@miaoxing/router": "^1.0.0",
+    "react-bootstrap": "^1.0.1"
   },
   "ciDependencies": {
     "@miaoxing/router": "miaoxing/router",
