@@ -17,7 +17,8 @@
     "url": "git+https://github.com/twinh/miaoxing.git"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test-coverage": "jest --coverage --coverageReporters text lcovonly"
   },
   "bugs": {
     "url": "https://github.com/twinh/miaoxing/issues"
