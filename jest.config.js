@@ -15,7 +15,7 @@ module.exports = {
     },
   },
   "setupFilesAfterEnv": [
-    "<rootDir>__tests__/setupTests.js"
+    "<rootDir>/setupTests.js"
   ],
   "moduleNameMapper": {
     "\\.(css|less|scss)$": "<rootDir>/__mocks__/styleMock.js",
