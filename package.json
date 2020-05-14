@@ -52,7 +52,7 @@
   },
   "dependencies": {
     "@miaoxing/router": "^1.0.0",
-    "miaoxing": "^0.0.1",
+    "miaoxing": "^1.0.0",
     "react-bootstrap": "^1.0.1"
   },
   "ciDependencies": {
