@@ -56,11 +56,11 @@
   },
   "dependencies": {
     "@mxjs/router": "^0.1.0",
-    "miaoxing": "^1.0.0",
+    "miaoxing": "^0.0.1",
     "react-bootstrap": "^1.0.1"
   },
   "ciDependencies": {
-    "miaoxing": "miaoxing/js",
+    "miaoxing": "miaoxing/miaoxing-js",
     "@mxjs/router": "miaoxing/router",
     "@mxjs/router-modal": "miaoxing/router-modal"
   }
