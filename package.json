@@ -1,0 +1,67 @@
+{
+  "name": "@mxjs/a-button",
+  "version": "0.1.0",
+  "description": "> TODO: description",
+  "author": "twinh <twinhuang@qq.com>",
+  "homepage": "https://github.com/twinh/miaoxing#readme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twinh/miaoxing.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "test-coverage": "jest --coverage --coverageReporters text lcovonly"
+  },
+  "bugs": {
+    "url": "https://github.com/twinh/miaoxing/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/plugin-proposal-export-default-from": "^7.8.3",
+    "@babel/plugin-proposal-export-namespace-from": "^7.8.3",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.5",
+    "@babel/plugin-proposal-optional-chaining": "^7.9.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "babel-jest": "^25.4.0",
+    "core-js": "^3.6.5",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "regenerator-runtime": "^0.13.5",
+    "@types/jest": "^25.2.1",
+    "jest": "^26.0.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^25.5.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@mxjs/router": "^0.1.0",
+    "miaoxing": "^1.0.0",
+    "react-bootstrap": "^1.0.1"
+  },
+  "ciDependencies": {
+    "miaoxing": "miaoxing/js",
+    "@mxjs/router": "miaoxing/router",
+    "@mxjs/router-modal": "miaoxing/router-modal"
+  }
+}
