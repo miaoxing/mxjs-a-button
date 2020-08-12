@@ -9,7 +9,6 @@ exports[`BtnLink renders correctly 1`] = `
     as={[Function]}
     disabled={false}
     href="foo"
-    type="button"
     variant="primary"
   >
     <SafeAnchor

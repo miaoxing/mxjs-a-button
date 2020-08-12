@@ -39,29 +39,31 @@
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-react": "^7.9.4",
+    "@types/jest": "^25.2.1",
     "babel-jest": "^25.4.0",
     "core-js": "^3.6.5",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "enzyme-to-json": "^3.4.4",
+    "jest": "^26.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
     "regenerator-runtime": "^0.13.5",
-    "@types/jest": "^25.2.1",
-    "jest": "^26.0.1",
     "rimraf": "^3.0.2",
     "ts-jest": "^25.5.0",
     "typescript": "^3.8.3"
   },
   "dependencies": {
+    "@mxjs/bootstrap": "^0.1.0",
     "@mxjs/router": "^0.1.0",
     "miaoxing": "^0.0.1",
     "react-bootstrap": "^1.0.1"
   },
   "ciDependencies": {
     "miaoxing": "miaoxing/miaoxing-js",
-    "@mxjs/router": "miaoxing/router",
-    "@mxjs/router-modal": "miaoxing/router-modal"
+    "@mxjs/bootstrap": "miaoxing/mxjs-bootstrap",
+    "@mxjs/router": "miaoxing/mxjs-router",
+    "@mxjs/router-modal": "miaoxing/mxjs-router-modal"
   }
 }
