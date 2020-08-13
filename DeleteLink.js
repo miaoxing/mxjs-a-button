@@ -9,6 +9,10 @@ class DeleteLink extends React.Component {
     onDelete: PropTypes.func,
   }
 
+  static defaultProps = {
+    message: '删除后将无法还原,确定删除?',
+  }
+
   constructor(props) {
     super(props);
 
@@ -43,9 +47,5 @@ class DeleteLink extends React.Component {
     </a>;
   }
 }
-
-DeleteLink.defaultProps = {
-  message: '删除后将无法还原,确定删除?',
-};
 
 export default DeleteLink;
