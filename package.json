@@ -21,6 +21,7 @@
     "url": "git+https://github.com/twinh/miaoxing.git"
   },
   "scripts": {
+    "clean": "rimraf dist coverage",
     "test": "jest",
     "test-coverage": "jest --coverage --coverageReporters text lcovonly"
   },
