@@ -1,7 +1,14 @@
 import React from 'react';
 import $ from 'miaoxing';
+import PropTypes from 'prop-types';
 
 class DeleteLink extends React.Component {
+  static propTypes = {
+    message: PropTypes.string,
+    href: PropTypes.string,
+    onDelete: PropTypes.func,
+  }
+
   constructor(props) {
     super(props);
 
