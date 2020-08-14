@@ -30,7 +30,7 @@ class DeleteLink extends React.Component {
       $.post({
         url: this.props.href,
         loading: true,
-        dataType: 'json'
+        dataType: 'json',
       }).then(ret => {
         $.ret(ret);
         if (ret.code === 1) {
