@@ -10,6 +10,6 @@ const BtnLink = ({to, children, ...rest}) => {
 BtnLink.propTypes = {
   to: PropTypes.string,
   children: PropTypes.node
-}
+};
 
 export default BtnLink;
