@@ -56,5 +56,8 @@
     "@mxjs/bootstrap": "miaoxing/mxjs-bootstrap",
     "@mxjs/router": "miaoxing/mxjs-router",
     "@mxjs/router-modal": "miaoxing/mxjs-router-modal"
+  },
+  "jest": {
+    "preset": "jest-preset-miaoxing"
   }
 }
