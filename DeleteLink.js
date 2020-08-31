@@ -27,7 +27,7 @@ class DeleteLink extends React.Component {
         return;
       }
 
-      $.post({
+      $.delete({
         url: this.props.href,
         loading: true,
         dataType: 'json',
