@@ -1,3 +1,28 @@
+# [0.2.0](https://github.com/miaoxing/mxjs-a-button/compare/v0.1.5...v0.2.0) (2020-09-01)
+
+
+### Code Refactoring
+
+* 更改接口为 REST 风格 ([09be777](https://github.com/miaoxing/mxjs-a-button/commit/09be777678b41c5e4d59ddd39e9582397b5c203c))
+
+
+### Reverts
+
+* 移除测试语句 ([7e97329](https://github.com/miaoxing/mxjs-a-button/commit/7e973292e32f5c55fa5189ee0941fb32a8f14b61))
+
+
+### BREAKING CHANGES
+
+* 更改接口为 REST 风格
+
+
+
+
+
+### Dependencies
+
+* **miaoxing:** upgrade from 0.1.3 to 0.1.4
+
 ## [0.1.5](https://github.com/miaoxing/mxjs-a-button/compare/v0.1.4...v0.1.5) (2020-08-17)
 
 
