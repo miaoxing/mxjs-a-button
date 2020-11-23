@@ -33,7 +33,7 @@ class DeleteLink extends React.Component {
         dataType: 'json',
       }).then(ret => {
         $.ret(ret);
-        if (ret.code === 1) {
+        if (ret.isSuc()) {
           this.props.onDelete && this.props.onDelete();
         }
       });
