@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/a-button",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "> TODO: description",
   "author": "twinh <twinhuang@qq.com>",
   "homepage": "https://github.com/twinh/miaoxing#readme",
@@ -35,7 +35,7 @@
     "enzyme-adapter-react-16": "^1.15.2",
     "enzyme-to-json": "^3.4.4",
     "jest": "^26.0.1",
-    "@miaoxing/dev": "^6.2.0",
+    "@miaoxing/dev": "^6.3.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -48,7 +48,7 @@
   "dependencies": {
     "@mxjs/bootstrap": "^0.1.1",
     "@mxjs/router": "^0.1.1",
-    "miaoxing": "^0.1.7",
+    "miaoxing": "^0.1.8",
     "react-bootstrap": "^1.0.1"
   },
   "ciDependencies": {
