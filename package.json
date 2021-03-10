@@ -36,7 +36,6 @@
   "devDependencies": {
     "@miaoxing/dev": "^6.3.2",
     "@testing-library/react": "^11.2.5",
-    "babel-preset-miaoxing": "^0.1.4",
     "core-js": "^3.6.5",
     "jest": "^26.0.1",
     "prop-types": "^15.7.2",
