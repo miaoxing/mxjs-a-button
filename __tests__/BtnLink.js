@@ -2,22 +2,24 @@ import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 
 import React from 'react';
-import {mount} from 'enzyme';
 import {BtnLink} from '../';
 import {MemoryRouter} from 'react-router';
+import {render} from '@testing-library/react';
 
 describe('BtnLink', () => {
   test('renders correctly', () => {
-    expect(mount(<MemoryRouter>
-      <BtnLink href="foo">bar</BtnLink>
-    </MemoryRouter>).find(BtnLink)).toMatchSnapshot();
-  });
-
-  test('text', () => {
-    const wrapper = mount(<MemoryRouter>
+    const {container} = render(<MemoryRouter>
       <BtnLink href="foo">bar</BtnLink>
     </MemoryRouter>);
 
-    expect(wrapper.find('a').text()).toBe('bar');
+    expect(container).toMatchSnapshot();
+  });
+
+  test('text', () => {
+    const {getByTestId} = render(<MemoryRouter>
+      <BtnLink data-testid="foo" href="foo">bar</BtnLink>
+    </MemoryRouter>);
+
+    expect(getByTestId('foo').innerHTML).toBe('bar');
   });
 });
