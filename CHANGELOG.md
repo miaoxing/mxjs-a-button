@@ -1,3 +1,20 @@
+## [0.2.6](https://github.com/miaoxing/mxjs-a-button/compare/v0.2.5...v0.2.6) (2021-03-10)
+
+
+### Bug Fixes
+
+* 指定 npm 发布的文件 ([c918d12](https://github.com/miaoxing/mxjs-a-button/commit/c918d126e1f201cc2230895ed77a9d8bcb6af7b1))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/bootstrap:** upgrade from 0.1.1 to 0.1.2
+* **miaoxing:** upgrade from 0.1.9 to 0.1.10
+* **@miaoxing/dev:** upgrade from 6.3.1 to 6.3.2
+
 ## [0.2.5](https://github.com/miaoxing/mxjs-a-button/compare/v0.2.4...v0.2.5) (2021-03-09)
 
 
