@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/a-button",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "> TODO: description",
   "author": "twinh <twinhuang@qq.com>",
   "homepage": "https://github.com/twinh/miaoxing#readme",
@@ -51,7 +51,7 @@
   "dependencies": {
     "@mxjs/bootstrap": "^0.1.2",
     "@mxjs/router": "^0.1.1",
-    "miaoxing": "^0.1.10",
+    "miaoxing": "^0.2.0",
     "react-bootstrap": "^1.0.1"
   },
   "ciDependencies": {
