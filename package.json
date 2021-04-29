@@ -36,14 +36,12 @@
   "devDependencies": {
     "@miaoxing/dev": "^6.4.0",
     "@testing-library/react": "^11.2.5",
-    "core-js": "^3.6.5",
     "jest": "^26.0.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.1.2",
-    "regenerator-runtime": "^0.13.5",
     "rimraf": "^3.0.2",
     "ts-jest": "^26.2.0",
     "typescript": "^3.8.3"
@@ -58,7 +56,9 @@
     "miaoxing": "miaoxing/miaoxing-js",
     "@mxjs/bootstrap": "miaoxing/mxjs-bootstrap",
     "@mxjs/router": "miaoxing/mxjs-router",
-    "@mxjs/router-modal": "miaoxing/mxjs-router-modal"
+    "@mxjs/router-modal": "miaoxing/mxjs-router-modal",
+    "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing",
+    "@miaoxing/dev": "miaoxing/dev"
   },
   "jest": {
     "preset": "jest-preset-miaoxing"
