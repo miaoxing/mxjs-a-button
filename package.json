@@ -60,6 +60,7 @@
     "@mxjs/bootstrap": "miaoxing/mxjs-bootstrap",
     "@mxjs/router": "miaoxing/mxjs-router",
     "@mxjs/router-modal": "miaoxing/mxjs-router-modal",
-    "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing"
+    "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing",
+    "jest-preset-miaoxing": "miaoxing/jest-preset-miaoxing"
   }
 }
