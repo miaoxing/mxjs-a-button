@@ -1,3 +1,16 @@
+## [0.2.11](https://github.com/miaoxing/mxjs-a-button/compare/v0.2.10...v0.2.11) (2021-05-11)
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/bootstrap:** upgrade from `0.1.3` to `0.1.4`
+* **@mxjs/router:** upgrade from `0.1.2` to `0.1.3`
+* **miaoxing:** upgrade from `0.2.3` to `0.2.4`
+* **@miaoxing/dev:** upgrade from `6.4.0` to `7.0.0`
+
 ## [0.2.10](https://github.com/miaoxing/mxjs-a-button/compare/v0.2.9...v0.2.10) (2021-04-27)
 
 
