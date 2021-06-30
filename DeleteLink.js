@@ -31,7 +31,7 @@ class DeleteLink extends React.Component {
         url: this.props.href,
         loading: true,
         dataType: 'json',
-      }).then(ret => {
+      }).then(({ret}) => {
         $.ret(ret);
         if (ret.isSuc()) {
           this.props.onDelete && this.props.onDelete();
