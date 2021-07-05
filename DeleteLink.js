@@ -1,8 +1,8 @@
-import React from 'react';
+import { Component } from 'react';
 import $ from 'miaoxing';
 import PropTypes from 'prop-types';
 
-class DeleteLink extends React.Component {
+class DeleteLink extends Component {
   static propTypes = {
     message: PropTypes.string,
     href: PropTypes.string,

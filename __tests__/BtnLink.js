@@ -1,4 +1,3 @@
-import React from 'react';
 import {BtnLink} from '../';
 import {MemoryRouter} from 'react-router';
 import {render} from '@testing-library/react';

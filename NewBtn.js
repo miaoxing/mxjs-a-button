@@ -1,4 +1,3 @@
-import React from 'react';
 import BtnLink from './BtnLink';
 import PropTypes from 'prop-types';
 

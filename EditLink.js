@@ -1,4 +1,3 @@
-import React from 'react';
 import {Link} from '@mxjs/router';
 import PropTypes from 'prop-types';
 

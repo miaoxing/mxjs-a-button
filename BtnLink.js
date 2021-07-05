@@ -1,4 +1,3 @@
-import React from 'react';
 import {Link} from '@mxjs/router';
 import {Button} from '@mxjs/bootstrap';
 import PropTypes from 'prop-types';
