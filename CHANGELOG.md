@@ -1,3 +1,26 @@
+# [0.3.0](https://github.com/miaoxing/mxjs-a-button/compare/v0.2.12...v0.3.0) (2021-10-28)
+
+
+### Features
+
+* `react` 依赖移到 `peerDependencies` 中，开发依赖使用 `react` 17 ([f1aab0b](https://github.com/miaoxing/mxjs-a-button/commit/f1aab0bb90c7cb08a76149d31a33f4419751b903))
+
+
+### BREAKING CHANGES
+
+* `react` 依赖移到 `peerDependencies` 中，开发依赖使用 `react` 17
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/bootstrap:** upgrade from `0.1.5` to `0.1.6`
+* **@mxjs/router:** upgrade from `0.1.4` to `0.2.0`
+* **miaoxing:** upgrade from `0.2.5` to `0.3.0`
+* **@miaoxing/dev:** upgrade from `7.0.1` to `8.0.0`
+
 ## [0.2.12](https://github.com/miaoxing/mxjs-a-button/compare/v0.2.11...v0.2.12) (2021-05-12)
 
 
