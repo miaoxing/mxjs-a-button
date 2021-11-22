@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import $ from 'miaoxing';
 import PropTypes from 'prop-types';
+import {Typography} from 'antd';
 
 class DeleteLink extends Component {
   static propTypes = {
@@ -42,9 +43,9 @@ class DeleteLink extends Component {
 
   render() {
     const {message, href, onDelete, ...rest} = this.props;
-    return <a className="text-danger" href="#" onClick={this.handleDelete} {...rest}>
+    return <Typography.Link type="danger" href="#" onClick={this.handleDelete} {...rest}>
       删除
-    </a>;
+    </Typography.Link>;
   }
 }
 

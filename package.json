@@ -37,10 +37,10 @@
     "preset": "jest-preset-miaoxing"
   },
   "dependencies": {
-    "@mxjs/bootstrap": "^0.1.6",
     "@mxjs/router": "^0.2.0",
-    "miaoxing": "^0.3.0",
-    "react-bootstrap": "^1.0.1"
+    "antd": "^4.15.2",
+    "antd-button-color": "^1.0.4",
+    "miaoxing": "^0.3.0"
   },
   "devDependencies": {
     "@miaoxing/dev": "^8.0.0",
@@ -61,7 +61,6 @@
   },
   "ciDependencies": {
     "miaoxing": "miaoxing/miaoxing-js",
-    "@mxjs/bootstrap": "miaoxing/mxjs-bootstrap",
     "@mxjs/router": "miaoxing/mxjs-router",
     "@mxjs/router-modal": "miaoxing/mxjs-router-modal",
     "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing",
