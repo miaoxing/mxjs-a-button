@@ -1,7 +1,8 @@
 import React from 'react';
 import {Link} from '@mxjs/router';
-import {Button} from 'antd';
 import PropTypes from 'prop-types';
+import Button from 'antd-button-color';
+import 'antd-button-color/dist/css/style.less';
 
 const AntdLink = React.forwardRef(({navigate, children, ...props}, ref) => {
   return (
