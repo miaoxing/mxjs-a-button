@@ -16,6 +16,6 @@ describe('BtnLink', () => {
       <BtnLink data-testid="foo" href="foo">bar</BtnLink>
     </MemoryRouter>);
 
-    expect(getByTestId('foo').innerHTML).toBe('bar');
+    expect(getByTestId('foo')).toMatchSnapshot();
   });
 });

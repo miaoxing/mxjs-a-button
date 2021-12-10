@@ -3,10 +3,24 @@
 exports[`BtnLink renders correctly 1`] = `
 <div>
   <a
-    class="btn btn-primary"
+    class="ant-btn"
     href="/"
   >
-    bar
+    <span>
+      bar
+    </span>
   </a>
 </div>
+`;
+
+exports[`BtnLink text 1`] = `
+<a
+  class="ant-btn"
+  data-testid="foo"
+  href="/"
+>
+  <span>
+    bar
+  </span>
+</a>
 `;
