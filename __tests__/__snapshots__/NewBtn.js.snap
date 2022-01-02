@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewBtn default 1`] = `
+<div>
+  <a
+    class="ant-btn ant-btn-success"
+    href="foo"
+  >
+    <span>
+      bar
+    </span>
+  </a>
+</div>
+`;
+
+exports[`NewBtn text 1`] = `
+<div>
+  <a
+    class="ant-btn ant-btn-success"
+    data-testid="foo"
+    href="foo"
+  >
+    <span>
+      bar
+    </span>
+  </a>
+</div>
+`;
