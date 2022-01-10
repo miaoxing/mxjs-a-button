@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@mxjs/router": "^0.2.0",
-    "antd": "^4.15.2",
+    "antd": "~4.17.4",
     "antd-button-color": "^1.0.4",
     "miaoxing": "^0.3.0"
   },
