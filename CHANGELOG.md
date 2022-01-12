@@ -1,3 +1,33 @@
+# [0.4.0](https://github.com/miaoxing/mxjs-a-button/compare/v0.3.0...v0.4.0) (2022-01-12)
+
+
+### Code Refactoring
+
+* **a-button:** 按钮链接由 bootstrap 改为 antd ([18c3a5a](https://github.com/miaoxing/mxjs-a-button/commit/18c3a5a0df6987e873c38b9c4ad3d800519ff561))
+
+
+### Features
+
+* 更新 `antd` 到 `~4.17.4` ([e686a1b](https://github.com/miaoxing/mxjs-a-button/commit/e686a1bcacc40f4373e6c5f2f957a20bf7af629e))
+* 更新 typescript 到 `^4.5.2` ([99231d0](https://github.com/miaoxing/mxjs-a-button/commit/99231d07df8db1bdd5743c1cffefc39cede8494e))
+* **a-button:** 增加 `antd-button-color` 来显示不同颜色的按钮 ([180b929](https://github.com/miaoxing/mxjs-a-button/commit/180b929807f6b267c7cf445cb80de8d60b4ac4a9))
+
+
+### BREAKING CHANGES
+
+* 更新 typescript 到 `^4.5.2`
+* **a-button:** 按钮链接由 bootstrap 改为 antd
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/router:** upgrade from `0.2.0` to `0.2.1`
+* **miaoxing:** upgrade from `0.3.0` to `0.4.0`
+* **@miaoxing/dev:** upgrade from `8.0.0` to `8.0.1`
+
 # [0.3.0](https://github.com/miaoxing/mxjs-a-button/compare/v0.2.12...v0.3.0) (2021-10-28)
 
 
