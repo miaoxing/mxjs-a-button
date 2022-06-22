@@ -1,52 +1,38 @@
-import { Component } from 'react';
 import $ from 'miaoxing';
 import PropTypes from 'prop-types';
 import {Typography} from 'antd';
 
-class DeleteLink extends Component {
-  static propTypes = {
-    message: PropTypes.string,
-    href: PropTypes.string,
-    onDelete: PropTypes.func,
-  }
+const handleDelete = (message, href, onDelete, e) => {
+  e.preventDefault();
 
-  static defaultProps = {
-    message: '删除后将无法还原,确定删除?',
-  }
+  $.confirm(message, (result) => {
+    if (!result) {
+      return;
+    }
 
-  constructor(props) {
-    super(props);
-
-    this.handleDelete = this.handleDelete.bind(this);
-  }
-
-  handleDelete(e) {
-    e.preventDefault();
-
-    $.confirm(this.props.message, (result) => {
-      if (!result) {
-        return;
+    $.delete({
+      url: href,
+      loading: true,
+      dataType: 'json',
+    }).then(({ret}) => {
+      $.ret(ret);
+      if (ret.isSuc()) {
+        onDelete && onDelete();
       }
-
-      $.delete({
-        url: this.props.href,
-        loading: true,
-        dataType: 'json',
-      }).then(({ret}) => {
-        $.ret(ret);
-        if (ret.isSuc()) {
-          this.props.onDelete && this.props.onDelete();
-        }
-      });
     });
-  }
+  });
+};
 
-  render() {
-    const {message, href, onDelete, ...rest} = this.props;
-    return <Typography.Link type="danger" href="#" onClick={this.handleDelete} {...rest}>
-      删除
-    </Typography.Link>;
-  }
-}
+const DeleteLink = ({message = '删除后将无法还原,确定删除?', href, onDelete, ...rest}) => {
+  return <Typography.Link type="danger" href="#" onClick={handleDelete.bind(this, message, href, onDelete)} {...rest}>
+    删除
+  </Typography.Link>;
+};
+
+DeleteLink.propTypes = {
+  message: PropTypes.string,
+  href: PropTypes.string,
+  onDelete: PropTypes.func,
+};
 
 export default DeleteLink;
