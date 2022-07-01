@@ -1,3 +1,20 @@
+# [1.0.0](https://github.com/miaoxing/mxjs-a-button/compare/v0.4.2...v1.0.0) (2022-07-01)
+
+
+### Features
+
+* 发布 1.0.0 [release 1.0.0] ([b12b068](https://github.com/miaoxing/mxjs-a-button/commit/b12b068d1c98335d8015a86acd01dff4d09ba3f7))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/router:** upgrade from `0.2.3` to `0.2.4`
+* **miaoxing:** upgrade from `0.4.2` to `0.4.3`
+* **@miaoxing/dev:** upgrade from `8.1.1` to `8.1.2`
+
 ## [0.4.2](https://github.com/miaoxing/mxjs-a-button/compare/v0.4.1...v0.4.2) (2022-06-01)
 
 
