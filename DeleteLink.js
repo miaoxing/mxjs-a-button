@@ -23,9 +23,9 @@ const handleDelete = (message, href, onDelete, e) => {
   });
 };
 
-const DeleteLink = ({message = '删除后将无法还原,确定删除?', href, onDelete, ...rest}) => {
+const DeleteLink = ({message = '删除后将无法还原,确定删除?', href, onDelete, children, ...rest}) => {
   return <Typography.Link type="danger" href="#" onClick={handleDelete.bind(this, message, href, onDelete)} {...rest}>
-    删除
+    {children || '删除'}
   </Typography.Link>;
 };
 
@@ -33,6 +33,7 @@ DeleteLink.propTypes = {
   message: PropTypes.string,
   href: PropTypes.string,
   onDelete: PropTypes.func,
+  children: PropTypes.node,
 };
 
 export default DeleteLink;
