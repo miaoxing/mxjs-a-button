@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/miaoxing/mxjs-a-button/compare/v1.0.1...v1.1.0) (2022-11-01)
+
+
+### Features
+
+* **a-button:** 允许定义 `DeleteLink` 显示的文案 ([9a50a21](https://github.com/miaoxing/mxjs-a-button/commit/9a50a219791ab36927c88f5cc2fe5ae123cdda8d))
+* **a-button:** 增加 `BackBtn` 组件，点击返回指定的页面 ([84cb9ac](https://github.com/miaoxing/mxjs-a-button/commit/84cb9ac4dc55646ea1fe9bc52fdbc5c67cb8640e))
+* **a-button:** 增加 `ShowLink` ([9d4104f](https://github.com/miaoxing/mxjs-a-button/commit/9d4104f7f2cddefc16d9b059edf7e3406a7ebbf0))
+
 ## [1.0.1](https://github.com/miaoxing/mxjs-a-button/compare/v1.0.0...v1.0.1) (2022-08-02)
 
 
