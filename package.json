@@ -8,15 +8,6 @@
   "directories": {
     "test": "__tests__"
   },
-  "files": [
-    "style",
-    "BtnLink.js",
-    "DeleteLink.js",
-    "EditLink.js",
-    "index.js",
-    "ListBtn.js",
-    "NewBtn.js"
-  ],
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
