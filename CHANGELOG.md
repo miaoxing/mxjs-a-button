@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/miaoxing/mxjs-a-button/compare/v1.1.0...v1.1.1) (2022-11-02)
+
+
+### Bug Fixes
+
+* **a-button:** 发布包缺少 `ShowLink` 组件 ([a9db793](https://github.com/miaoxing/mxjs-a-button/commit/a9db793356e23631eff27c7d7dcda3287e094895))
+
 # [1.1.0](https://github.com/miaoxing/mxjs-a-button/compare/v1.0.1...v1.1.0) (2022-11-01)
 
 
