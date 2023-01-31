@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/miaoxing/mxjs-a-button/compare/v1.1.3...v1.2.0) (2023-01-31)
+
+
+### Features
+
+* 更新 `antd` 到 `~4.24.7` ([eee36d3](https://github.com/miaoxing/mxjs-a-button/commit/eee36d35b13653296aa67d17c3cfe3d9fcf9b064))
+
 ## [1.1.3](https://github.com/miaoxing/mxjs-a-button/compare/v1.1.2...v1.1.3) (2023-01-01)
 
 
