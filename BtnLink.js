@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from '@mxjs/router';
+import {AccessLink} from '@mxjs/router';
 import PropTypes from 'prop-types';
 import Button from 'antd-button-color';
 import 'antd-button-color/dist/css/style.less';
@@ -20,7 +20,7 @@ AntdLink.propTypes = {
 };
 
 const BtnLink = ({to, ...rest}) => {
-  return <Link to={to} component={AntdLink} {...rest}/>;
+  return <AccessLink to={to} component={AntdLink} {...rest}/>;
 };
 
 BtnLink.propTypes = {

@@ -1,8 +1,8 @@
-import {Link} from '@mxjs/router';
+import {AccessLink} from '@mxjs/router';
 import PropTypes from 'prop-types';
 
 const EditLink = ({href, children, ...props}) => (
-  <Link to={href} {...props}>{children || '编辑'}</Link>
+  <AccessLink to={href} {...props}>{children || '编辑'}</AccessLink>
 );
 
 EditLink.propTypes = {

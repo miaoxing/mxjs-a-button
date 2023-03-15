@@ -28,6 +28,7 @@
     "preset": "jest-preset-miaoxing"
   },
   "dependencies": {
+    "@mxjs/auth": "^1.0.0",
     "@mxjs/router": "^0.2.6",
     "antd": "~4.24.7",
     "antd-button-color": "^1.0.4",
@@ -56,6 +57,7 @@
     "@mxjs/router-modal": "miaoxing/mxjs-router-modal",
     "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing",
     "jest-preset-miaoxing": "miaoxing/jest-preset-miaoxing",
-    "@miaoxing/dev": "miaoxing/dev"
+    "@miaoxing/dev": "miaoxing/dev",
+    "@mxjs/auth": "miaoxing/mxjs-auth"
   }
 }

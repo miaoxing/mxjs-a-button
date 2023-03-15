@@ -1,6 +1,9 @@
 import $ from 'miaoxing';
 import PropTypes from 'prop-types';
 import {Typography} from 'antd';
+import {withAccess} from '@mxjs/auth';
+
+const Link = withAccess(Typography.Link);
 
 const handleDelete = (message, href, onDelete, e) => {
   e.preventDefault();
@@ -24,9 +27,9 @@ const handleDelete = (message, href, onDelete, e) => {
 };
 
 const DeleteLink = ({message = '删除后将无法还原,确定删除?', href, onDelete, children, ...rest}) => {
-  return <Typography.Link type="danger" href="#" onClick={handleDelete.bind(this, message, href, onDelete)} {...rest}>
+  return <Link permission={href} type="danger" href="#" onClick={handleDelete.bind(this, message, href, onDelete)} {...rest}>
     {children || '删除'}
-  </Typography.Link>;
+  </Link>;
 };
 
 DeleteLink.propTypes = {
