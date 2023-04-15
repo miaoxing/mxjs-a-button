@@ -1,3 +1,19 @@
+# [1.3.0](https://github.com/miaoxing/mxjs-a-button/compare/v1.2.0...v1.3.0) (2023-04-15)
+
+
+### Features
+
+* **a-button:** 链接和按钮增加权限控制 ([f5e53de](https://github.com/miaoxing/mxjs-a-button/commit/f5e53de69ea662eb5720a5c643939021bd6bea5e))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/auth:** upgrade from `1.0.0` to `1.1.0`
+* **@mxjs/router:** upgrade from `0.2.6` to `0.2.7`
+
 # [1.2.0](https://github.com/miaoxing/mxjs-a-button/compare/v1.1.3...v1.2.0) (2023-01-31)
 
 
