@@ -31,7 +31,6 @@
     "@mxjs/auth": "^1.1.1",
     "@mxjs/router": "^0.2.8",
     "antd": "~5.1.6",
-    "antd-button-color": "^1.0.4",
     "miaoxing": "^0.4.6"
   },
   "devDependencies": {
