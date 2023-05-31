@@ -1,3 +1,31 @@
+# [2.0.0](https://github.com/miaoxing/mxjs-a-button/compare/v1.3.1...v2.0.0) (2023-05-31)
+
+
+### Code Refactoring
+
+* **a-button, antd5:** 移除 `antd-button-color`，添加按钮改为主色调 ([be89ddf](https://github.com/miaoxing/mxjs-a-button/commit/be89ddfe65e7d43864db833e09cff63e49496c56))
+
+
+### Features
+
+* **antd5:** 更新 `antd` 到 `5.1.6` ([2988d41](https://github.com/miaoxing/mxjs-a-button/commit/2988d41b042b4eda5be958e6132147c6fb5ac006))
+
+
+### BREAKING CHANGES
+
+* **a-button, antd5:** 移除 `antd-button-color`，添加按钮改为主色调
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/auth:** upgrade from `1.1.1` to `1.1.2`
+* **@mxjs/router:** upgrade from `0.2.8` to `0.2.9`
+* **miaoxing:** upgrade from `0.4.6` to `0.4.7`
+* **@miaoxing/dev:** upgrade from `8.2.0` to `8.2.1`
+
 ## [1.3.1](https://github.com/miaoxing/mxjs-a-button/compare/v1.3.0...v1.3.1) (2023-04-18)
 
 
