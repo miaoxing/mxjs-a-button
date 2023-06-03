@@ -5,6 +5,9 @@
   "author": "twinh <twinhuang@qq.com>",
   "homepage": "https://github.com/miaoxing/miaoxing#readme",
   "main": "index.js",
+  "engines": {
+    "node": ">=12"
+  },
   "directories": {
     "test": "__tests__"
   },
