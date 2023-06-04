@@ -3,7 +3,7 @@
 exports[`NewBtn default 1`] = `
 <div>
   <a
-    class="ant-btn ant-btn-success"
+    class="ant-btn ant-btn-primary"
     href="foo"
   >
     <span>
@@ -16,7 +16,7 @@ exports[`NewBtn default 1`] = `
 exports[`NewBtn text 1`] = `
 <div>
   <a
-    class="ant-btn ant-btn-success"
+    class="ant-btn ant-btn-primary"
     data-testid="foo"
     href="foo"
   >
