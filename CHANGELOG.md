@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/miaoxing/mxjs-a-button/compare/v2.0.0...v3.0.0) (2023-06-30)
+
+
+### Features
+
+* **a-button:** 指定 node >= 12 ([df652b5](https://github.com/miaoxing/mxjs-a-button/commit/df652b57606c138b0f2ee76066c80188fbbcc11e))
+
+
+### BREAKING CHANGES
+
+* **a-button:** 指定 node >= 12
+
 # [2.0.0](https://github.com/miaoxing/mxjs-a-button/compare/v1.3.1...v2.0.0) (2023-05-31)
 
 
