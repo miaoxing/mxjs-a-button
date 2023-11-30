@@ -1,3 +1,16 @@
+## [3.0.3](https://github.com/miaoxing/mxjs-a-button/compare/v3.0.2...v3.0.3) (2023-11-30)
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/auth:** upgrade from `1.1.4` to `1.1.5`
+* **@mxjs/router:** upgrade from `0.2.11` to `0.2.12`
+* **miaoxing:** upgrade from `0.4.9` to `0.4.10`
+* **@miaoxing/dev:** upgrade from `8.2.3` to `8.2.4`
+
 ## [3.0.2](https://github.com/miaoxing/mxjs-a-button/compare/v3.0.1...v3.0.2) (2023-09-02)
 
 
