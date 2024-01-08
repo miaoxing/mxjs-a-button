@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/a-button",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "> TODO: description",
   "author": "twinh <twinhuang@qq.com>",
   "homepage": "https://github.com/miaoxing/miaoxing#readme",
@@ -31,13 +31,13 @@
     "preset": "jest-preset-miaoxing"
   },
   "dependencies": {
-    "@mxjs/auth": "^1.1.6",
-    "@mxjs/router": "^0.2.13",
+    "@mxjs/auth": "^1.1.7",
+    "@mxjs/router": "^0.2.14",
     "antd": "~5.1.6",
-    "miaoxing": "^0.4.11"
+    "miaoxing": "^0.4.12"
   },
   "devDependencies": {
-    "@miaoxing/dev": "^9.0.0",
+    "@miaoxing/dev": "^9.1.0",
     "@testing-library/react": "^11.2.6",
     "jest": "^26.0.1",
     "prop-types": "^15.7.2",
