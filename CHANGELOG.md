@@ -1,3 +1,19 @@
+# [3.1.0](https://github.com/miaoxing/mxjs-a-button/compare/v3.0.5...v3.1.0) (2024-01-31)
+
+
+### Features
+
+* 更新 `react` 支持 18 ([58f7c5d](https://github.com/miaoxing/mxjs-a-button/commit/58f7c5d63cd66c4994434aba94fac9efaba13745))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/auth:** upgrade from `1.1.7` to `1.2.0`
+* **@mxjs/router:** upgrade from `0.2.14` to `0.2.15`
+
 ## [3.0.5](https://github.com/miaoxing/mxjs-a-button/compare/v3.0.4...v3.0.5) (2024-01-08)
 
 
