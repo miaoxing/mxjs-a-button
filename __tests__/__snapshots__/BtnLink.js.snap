@@ -5,6 +5,7 @@ exports[`BtnLink renders correctly 1`] = `
   <a
     class="ant-btn ant-btn-default"
     href="/"
+    tabindex="0"
   >
     <span>
       bar
@@ -18,6 +19,7 @@ exports[`BtnLink text 1`] = `
   class="ant-btn ant-btn-default"
   data-testid="foo"
   href="/"
+  tabindex="0"
 >
   <span>
     bar
