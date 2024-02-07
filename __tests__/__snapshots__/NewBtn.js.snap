@@ -5,6 +5,7 @@ exports[`NewBtn default 1`] = `
   <a
     class="ant-btn ant-btn-primary"
     href="foo"
+    tabindex="0"
   >
     <span>
       bar
@@ -19,6 +20,7 @@ exports[`NewBtn text 1`] = `
     class="ant-btn ant-btn-primary"
     data-testid="foo"
     href="foo"
+    tabindex="0"
   >
     <span>
       bar
