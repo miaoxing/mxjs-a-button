@@ -1,3 +1,10 @@
+# [3.2.0](https://github.com/miaoxing/mxjs-a-button/compare/v3.1.0...v3.2.0) (2024-02-20)
+
+
+### Features
+
+* 更新 antd, antd icons 版本 ([30934fa](https://github.com/miaoxing/mxjs-a-button/commit/30934fadf9b35fb5106b248c9dda27d9ac3f74c0))
+
 # [3.1.0](https://github.com/miaoxing/mxjs-a-button/compare/v3.0.5...v3.1.0) (2024-01-31)
 
 
