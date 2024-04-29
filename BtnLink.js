@@ -1,25 +1,10 @@
 import React from 'react';
-import {AccessLink} from '@mxjs/router';
+import { AccessLink } from '@mxjs/router';
 import PropTypes from 'prop-types';
-import {Button} from 'antd';
+import { Button } from 'antd';
 
-const AntdLink = React.forwardRef(({navigate, children, ...props}, ref) => {
-  return (
-    <Button ref={ref} onClick={(e) => {
-      e.preventDefault();
-      navigate(props.href);
-    }} {...props}>{children}</Button>
-  );
-});
-
-AntdLink.propTypes = {
-  navigate: PropTypes.func,
-  href: PropTypes.string,
-  children: PropTypes.node,
-};
-
-const BtnLink = ({to, ...rest}) => {
-  return <AccessLink to={to} component={AntdLink} {...rest}/>;
+const BtnLink = ({ to, ...rest }) => {
+  return <AccessLink to={to} component={Button} {...rest}/>;
 };
 
 BtnLink.propTypes = {
