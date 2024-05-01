@@ -1,3 +1,25 @@
+# [4.0.0](https://github.com/miaoxing/mxjs-a-button/compare/v3.2.1...v4.0.0) (2024-05-01)
+
+
+### Features
+
+* **a-button:** 简化 `BtnLink` 组件 ([3889253](https://github.com/miaoxing/mxjs-a-button/commit/388925330268e51da635c551aa010527d02045ae))
+* 更新 `react-router` 到 v6 ([69293ed](https://github.com/miaoxing/mxjs-a-button/commit/69293edda894f4da24bf5f26df25191074ea26b3))
+
+
+### BREAKING CHANGES
+
+* 更新 `react-router` 到 v6
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/router:** upgrade from `0.2.16` to `0.3.0`
+* **miaoxing:** upgrade from `0.4.13` to `0.4.14`
+
 ## [3.2.1](https://github.com/miaoxing/mxjs-a-button/compare/v3.2.0...v3.2.1) (2024-03-31)
 
 
