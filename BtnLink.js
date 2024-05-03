@@ -1,4 +1,3 @@
-import React from 'react';
 import { AccessLink } from '@mxjs/router';
 import PropTypes from 'prop-types';
 import { Button } from 'antd';
