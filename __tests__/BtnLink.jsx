@@ -8,7 +8,7 @@ describe('BtnLink', () => {
     const {container} = render(
       <ConfigProvider theme={{hashed: false}}>
         <MemoryRouter>
-          <BtnLink href="foo">bar</BtnLink>
+          <BtnLink to="foo">bar</BtnLink>
         </MemoryRouter>
       </ConfigProvider>
     );
@@ -20,7 +20,7 @@ describe('BtnLink', () => {
     const {getByTestId} = render(
       <ConfigProvider theme={{hashed: false}}>
         <MemoryRouter>
-          <BtnLink data-testid="foo" href="foo">bar</BtnLink>
+          <BtnLink data-testid="foo" to="foo">bar</BtnLink>
         </MemoryRouter>
       </ConfigProvider>
     );

@@ -1,12 +1,12 @@
 import BtnLink from './BtnLink';
 import PropTypes from 'prop-types';
 
-const NewBtn = ({href, children, ...props}) => (
-  <BtnLink to={href} type="primary" {...props}>{children || '添加'}</BtnLink>
+const NewBtn = ({to, children, ...props}) => (
+  <BtnLink to={to} type="primary" {...props}>{children || '添加'}</BtnLink>
 );
 
 NewBtn.propTypes = {
-  href: PropTypes.string,
+  to: PropTypes.string,
   children: PropTypes.node,
 };
 

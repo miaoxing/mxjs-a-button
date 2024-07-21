@@ -1,14 +1,16 @@
 import PropTypes from 'prop-types';
 import BtnLink from './BtnLink';
 
-const BackBtn = ({href, children, ...props}) => (
-  <BtnLink to={href} {...props}>
-    {children || '返回'}
-  </BtnLink>
-);
+const BackBtn = ({ to, children, ...props }) => {
+  return (
+    <BtnLink to={to} {...props}>
+      {children || '返回'}
+    </BtnLink>
+  );
+};
 
 BackBtn.propTypes = {
-  href: PropTypes.string,
+  to: PropTypes.string,
   children: PropTypes.node,
 };
 

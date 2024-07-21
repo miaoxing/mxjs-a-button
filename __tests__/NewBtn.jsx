@@ -8,7 +8,7 @@ describe('NewBtn', () => {
     const {container} = render(
       <ConfigProvider theme={{hashed: false}}>
         <MemoryRouter>
-          <NewBtn href="foo">bar</NewBtn>
+          <NewBtn to="foo">bar</NewBtn>
         </MemoryRouter>
       </ConfigProvider>
     );
@@ -20,7 +20,7 @@ describe('NewBtn', () => {
     const {container} = render(
       <ConfigProvider theme={{hashed: false}}>
         <MemoryRouter>
-          <NewBtn data-testid="foo" href="foo">bar</NewBtn>
+          <NewBtn data-testid="foo" to="foo">bar</NewBtn>
         </MemoryRouter>
       </ConfigProvider>
     );
