@@ -1,3 +1,31 @@
+# [5.0.0](https://github.com/miaoxing/mxjs-a-button/compare/v4.0.1...v5.0.0) (2024-07-31)
+
+
+### Bug Fixes
+
+* `export default from` 改为标准语法 ([f0e1f5b](https://github.com/miaoxing/mxjs-a-button/commit/f0e1f5b83cf96bc9587ed1e61ad1ec36b5b1e024))
+
+
+### Features
+
+* **a-button:** 更改 `href` 属性为 `to` ([ed7a193](https://github.com/miaoxing/mxjs-a-button/commit/ed7a19389d1115ba6024ebfdf406f7149d7e99a8))
+
+
+### BREAKING CHANGES
+
+* **a-button:** 更改 `href` 属性为 `to`
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/auth:** upgrade from `1.2.1` to `1.2.2`
+* **@mxjs/router:** upgrade from `0.3.0` to `0.3.1`
+* **miaoxing:** upgrade from `0.4.15` to `0.4.16`
+* **@miaoxing/dev:** upgrade from `9.1.1` to `9.1.2`
+
 ## [4.0.1](https://github.com/miaoxing/mxjs-a-button/compare/v4.0.0...v4.0.1) (2024-05-30)
 
 
