@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/a-button",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "> TODO: description",
   "author": "twinh <twinhuang@qq.com>",
   "homepage": "https://github.com/miaoxing/miaoxing#readme",
@@ -34,7 +34,7 @@
     "@mxjs/auth": "^1.2.2",
     "@mxjs/router": "^0.3.1",
     "antd": "~5.13",
-    "miaoxing": "^0.4.16"
+    "miaoxing": "^0.4.17"
   },
   "devDependencies": {
     "@miaoxing/dev": "^9.1.2",

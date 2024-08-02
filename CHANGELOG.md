@@ -1,3 +1,13 @@
+## [5.0.1](https://github.com/miaoxing/mxjs-a-button/compare/v5.0.0...v5.0.1) (2024-08-02)
+
+
+
+
+
+### Dependencies
+
+* **miaoxing:** upgrade from `0.4.16` to `0.4.17`
+
 # [5.0.0](https://github.com/miaoxing/mxjs-a-button/compare/v4.0.1...v5.0.0) (2024-07-31)
 
 
