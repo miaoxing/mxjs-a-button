@@ -4,7 +4,7 @@ exports[`BtnLink renders correctly 1`] = `
 <div>
   <a
     class="ant-btn ant-btn-default"
-    href="/"
+    href="/foo"
     tabindex="0"
   >
     <span>
