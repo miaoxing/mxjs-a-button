@@ -33,7 +33,7 @@
   "dependencies": {
     "@mxjs/auth": "^1.2.3",
     "@mxjs/router": "^0.3.2",
-    "antd": "~5.13",
+    "antd": "~5.19",
     "miaoxing": "^0.4.18"
   },
   "devDependencies": {
