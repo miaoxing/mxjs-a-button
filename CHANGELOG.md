@@ -1,3 +1,21 @@
+# [5.1.0](https://github.com/miaoxing/mxjs-a-button/compare/v5.0.2...v5.1.0) (2024-09-01)
+
+
+### Features
+
+* 更新 `antd` 到 `~5.19` ([ed02545](https://github.com/miaoxing/mxjs-a-button/commit/ed0254596dd5c172d534b3ad94e7d8ff074da401))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/auth:** upgrade from `1.2.3` to `1.2.4`
+* **@mxjs/router:** upgrade from `0.3.2` to `0.3.3`
+* **miaoxing:** upgrade from `0.4.18` to `0.4.19`
+* **@miaoxing/dev:** upgrade from `9.1.3` to `9.2.0`
+
 ## [5.0.2](https://github.com/miaoxing/mxjs-a-button/compare/v5.0.1...v5.0.2) (2024-08-03)
 
 
