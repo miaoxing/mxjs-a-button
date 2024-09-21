@@ -1,4 +1,4 @@
-import {Button} from 'antd';
+import Button from './Button';
 import BtnLink from './BtnLink';
 import DeleteLink from './DeleteLink';
 import EditLink from './EditLink';
