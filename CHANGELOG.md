@@ -1,3 +1,10 @@
+# [5.2.0](https://github.com/miaoxing/mxjs-a-button/compare/v5.1.0...v5.2.0) (2024-09-30)
+
+
+### Features
+
+* **a-button:** `Button` 组件支持传入权限标识 ([a72400e](https://github.com/miaoxing/mxjs-a-button/commit/a72400eca80c717a614e59787d4d6d94134a61f9))
+
 # [5.1.0](https://github.com/miaoxing/mxjs-a-button/compare/v5.0.2...v5.1.0) (2024-09-01)
 
 
